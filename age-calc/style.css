@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 40rem;
+    min-width: 30rem;
+    align-items: center;
+}
+.container label {
+    font-size: 2rem;
+}
+.container #dob{
+    margin-bottom: 3rem;
+}
+.desc{
+    font-size: 2rem;
+}
+.age{
+    font-size: 3rem;
+}
+.age > span{
+    font-weight: bold;
+}
+.error{
+    display: none;
+    font-size: 4rem;
+}
