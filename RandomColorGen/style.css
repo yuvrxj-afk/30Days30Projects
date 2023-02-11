@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-size: 0.7rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    border-radius: 1rem;
+    background: #000;
+    padding: 1.2rem 2.2rem;
+    color: white;
+    min-width: 27rem;
+}
+.value{
+    text-align: center;
+    font-size: 3rem;
+}
+.how{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
