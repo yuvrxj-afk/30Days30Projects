@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-size: 12px;
+  /* font-weight: 800; */
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+    padding: 3.5rem;
+    max-width: 70rem;
+}
+.quote{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+.author{
+    font-size: 2rem;
+    font-style: italic;
+    letter-spacing: 1px;
+}
